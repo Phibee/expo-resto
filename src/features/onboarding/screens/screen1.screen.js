@@ -24,7 +24,20 @@ export const Screen1 = ({ navigation }) => {
                         }}
                   >
                         <View style={[styles.flexCol, { flex: 1 }]}>
-                              <View style={styles.flexGrow}></View>
+                              <ImageBackground
+                                    source={require("../../../../assets/pattern-bg.png")}
+                                    style={{
+                                          flex: 1,
+                                          position: "relative",
+                                    }}
+                                    imageStyle={{
+                                          resizeMode: "center",
+                                          position: "absolute",
+                                          top: 0,
+                                    }}
+                              >
+                                    <View style={styles.flexGrow}></View>
+                              </ImageBackground>
 
                               <View
                                     style={[

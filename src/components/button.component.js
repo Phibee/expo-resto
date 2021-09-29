@@ -13,7 +13,9 @@ export const Button = ({
             <TouchableOpacity
                   style={[{ backgroundColor: bgColor }, styles.button]}
             >
-                  <Text style={{ color: textColor }}>{children}</Text>
+                  <Text style={[styles.buttonText, { color: textColor }]}>
+                        {children}
+                  </Text>
                   {iconName && (
                         <AntDesign name={iconName} size={22} color="white" />
                   )}
@@ -30,6 +32,9 @@ const styles = StyleSheet.create({
             minWidth: 200,
             display: "flex",
             flexDirection: "row",
+      },
+      buttonText: {
+            fontFamily: "Poppins_700Bold",
       },
 });
 
