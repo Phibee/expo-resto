@@ -12,6 +12,8 @@ import Navigation from "./src/infrastructure/navigation";
 import { SafeAreaView, StatusBar } from "react-native";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 
+console.disableYellowBox = true;
+
 export default function App() {
       useFonts({
             Poppins_100Thin,
