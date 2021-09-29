@@ -1,12 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 
-export const BranchScreen = ({ navigation }) => {
+export const Screen4 = ({ navigation }) => {
       return (
             <View style={{ backgroundColor: "white", flex: 1, padding: 15 }}>
-                  <Text>Branches</Text>
+                  <Text>Screen 4</Text>
             </View>
       );
 };
 
-export default BranchScreen;
+export default Screen4;
