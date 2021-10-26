@@ -1,7 +1,7 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { TouchableOpacity } from "react-native-gesture-handler";
-import { AntDesign } from "@expo/vector-icons";
+import React from 'react';
+import {StyleSheet, Text, View} from 'react-native';
+import {TouchableOpacity} from 'react-native-gesture-handler';
+import {AntDesign} from '@expo/vector-icons';
 
 export const Button = ({
   bgColor = '#FFA928',
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   buttonText: {
-    fontFamily: 'Poppins_700Bold',
+    fontFamily: 'PoppinsBold',
   },
 });
 
